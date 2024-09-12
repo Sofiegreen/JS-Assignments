@@ -46,3 +46,21 @@ console.log(gold);
 
 gold *= 10;
 console.log(gold);
+
+let numberOfStudents = 1;
+// numberOfStudents += 1;
+// console.log(numberOfStudents);
+
+numberOfStudents++;
+console.log(numberOfStudents);
+
+++numberOfStudents;
+console.log(numberOfStudents);
+
+console.log(numberOfStudents++); // 3 WHY?
+console.log(numberOfStudents); // 4
+
+console.log(++numberOfStudents); // 5
+
+// numberOfStudents--;
+// console.log(numberOfStudents);
