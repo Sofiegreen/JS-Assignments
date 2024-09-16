@@ -23,8 +23,12 @@ let result=0;
 result = resultinput1 % resultinput2;
 console.log(result);
 
-let circleNumber = 2
-let circleResult= 0
+let radiusInput= 2;
+let areaOfCircle;
+
+areaOfCircle = Math.PI * Math.pow(radiusInput, 2);
+console.log(areaOfCircle);
+
 
 
 
