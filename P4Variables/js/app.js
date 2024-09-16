@@ -10,6 +10,7 @@ console.log(line2);
 console.log(--NumberOfBottles);
 console.log(line1);
 
+//refactor code:
 console.log(NumberOfBottles + line1 + NumberOfBottles + line1);
 console.log(line2 + --NumberOfBottles + line1);
 
