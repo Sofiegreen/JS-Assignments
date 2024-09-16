@@ -24,7 +24,8 @@ console.log(isTeenager);
 console.log(isAdult);
 console.log(ageOfPerson);
 
-let playerTouchGround= true;
+let heightFromGround= 5;
+let playerTouchGround= heightFromGround === 1;
 let playerHasJetpack= true;
 
 //Runs when player touch ground = true
@@ -41,3 +42,5 @@ else {
   console.log("Player is NOT on the ground.");
   console.log("Player can NOT jump!");
 }
+
+
