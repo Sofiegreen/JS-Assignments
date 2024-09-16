@@ -50,3 +50,12 @@ else {
 favouriteNumber % 2 === 0 ? console.log("Favourite number is even") : console.log("Favourite number is odd");
 
 
+function makeLasagna() {
+  console.log("Fry meat");
+  console.log("Cut onions");
+  console.log("Fry onions");
+  console.log("Add tomato sauce");
+  console.log("Add spices");
+  console.log("Boil");
+}
+makeLasagna();
