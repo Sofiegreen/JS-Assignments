@@ -24,4 +24,20 @@ console.log(isTeenager);
 console.log(isAdult);
 console.log(ageOfPerson);
 
+let playerTouchGround= true;
+let playerHasJetpack= true;
 
+//Runs when player touch ground = true
+if(playerTouchGround){
+  console.log("Player is on the ground.");
+  console.log("Player can jump!");
+}
+else if (playerHasJetpack){
+  // Runs when PlayerHasJetpack = true
+  console.log("Player can jet away!");
+}
+else {
+  // Runs when PlayerTouchGround = false && PlayerHasJetpack = false:
+  console.log("Player is NOT on the ground.");
+  console.log("Player can NOT jump!");
+}
