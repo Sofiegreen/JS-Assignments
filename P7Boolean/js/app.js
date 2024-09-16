@@ -43,4 +43,3 @@ else {
   console.log("Player can NOT jump!");
 }
 
-
