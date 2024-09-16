@@ -1,4 +1,4 @@
-const birthYear = 2013;
+const birthYear = 2050;
 const currentYear = 2024;
 
 
@@ -11,6 +11,7 @@ let isChild = (ageOfPerson >= 0) && (ageOfPerson <= 10);
 let isTeenager = (ageOfPerson >= 11) && (ageOfPerson <= 17);
 // Save to a let variable named isAdult, when the age is 18 or more.
 let isAdult =  ageOfPerson >= 18;
+let notBorn= (ageOfPerson <= 0);
 
 if (isChild) {
   console.log("You are a child");
@@ -21,7 +22,11 @@ else if (isTeenager) {
 else if (isAdult) {
   console.log("You are an adult");
 }
-const favouriteNumber= 16;
+else if (notBorn) {
+  console.log("You are not born");
+}
+
+const favouriteNumber= 15;
 console.log(favouriteNumber);
 
 if (favouriteNumber > ageOfPerson) {
@@ -42,5 +47,6 @@ else {
   console.log("Favourite number is odd");
 }
 
+favouriteNumber % 2 === 0 ? console.log("Favourite number is even") : console.log("Favourite number is odd");
 
 
