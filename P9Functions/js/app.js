@@ -39,7 +39,7 @@ function walkThreeSteps() {
   stepForward();
 }
 
-function turnAround(){
+function 0turnAround(){
   turnRight();
   turnRight();
 }
