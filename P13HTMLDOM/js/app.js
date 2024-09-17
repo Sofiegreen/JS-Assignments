@@ -12,12 +12,13 @@ randomNumber0.innerHTML = chooseANumber(3).toString();
 headerText5.style.color= "pink";
 textField0.style.color= "blue";
 
-const button0= document.getElementById('button0');
-button0.addEventListener('click', () => {yourFunctionHere();
-})
+// const button0= document.getElementById('button0');
+// button0.addEventListener('click', () => {yourFunctionHere();
+// })
+//
+// button0.style.backgroundColor= "red";
+// button0.style.fontSize="100px";
 
-button0.style.backgroundColor= "red";
-button0.style.fontSize="100px";
 textField0.innerHTML= multiplyNySelf(9)
 
 function multiplyNySelf(number)  {
@@ -27,4 +28,6 @@ function multiplyNySelf(number)  {
 function chooseANumber(max) {
   return Math.floor(Math.random() * max);
 }
+
+
 
