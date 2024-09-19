@@ -20,3 +20,5 @@ document.getElementById('increase-btn').addEventListener('click', function() {
   updateScore();
 });
 
+
+

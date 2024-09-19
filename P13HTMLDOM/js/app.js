@@ -7,7 +7,7 @@ const headerText5=document.getElementById('header5');
 headerText5.innerHTML= "THIS IS MY WEBSITE!!!"
 
 const randomNumber0= document.getElementById("randomNumber0");
-randomNumber0.innerHTML = chooseANumber(3).toString();
+randomNumber0.innerHTML = chooseANumber(50).toString();
 
 headerText5.style.color= "pink";
 textField0.style.color= "blue";
